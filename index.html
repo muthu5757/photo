@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <!-- Link to Bootstrap CSS (replace with your own Bootstrap file link) -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Link to Swiper CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="styles.css" />
+    <title>Web Design Mastery | Capturer</title>
+  </head>
+  <body>
+    <header class="header hero" id="home">
+      <nav>
+        <div class="nav__header">
+          <div class="nav__logo">
+            <a href="#">
+              <img src="assets/logo.png" alt="logo" />
+            </a>
+          </div>
+          <div class="nav__menu__btn" id="menu-btn">
+            <i class="ri-menu-line"></i>
+          </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+          <li><a href="#home">HOME</a></li>
+          <li><a href="#client">TESTINOMINALS</a></li>
+          <li class="nav__logo">
+            <a href="#">
+              <img src="assets/logo.png" alt="logo" />
+            </a>
+          </li>
+          <li><a href="#PG">PHOTOGRAPHS</a></li>
+          <li><a href="#IN">IMAGES</a></li>
+        </ul>
+      </nav>
+    </header>
+
+
+
+    <section class="section__container client__container" id="client">
+      <h2 class="section__header"> Testinominals </h2>
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div class="client__card">
+              <img src="assets/12.jpg" alt="client" />
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="client__card">
+              <img src="assets/13.jpg" alt="client" />
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="client__card">
+              <img src="assets/14.jpg" alt="client" />
+            </div>
+          </div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <section class="section__container gallery__container" id="PG">
+      <h2 class="section__header">PhotoGraphs</h2>
+      <div class="gallery__grid">
+        <img src="assets/15.jpg" alt="gallery" />
+        <img src="assets/16.jpg" alt="gallery" />
+        <img src="assets/17.jpg" alt="gallery" />
+        <img src="assets/18.jpg" alt="gallery" />
+        <img src="assets/19.jpg" alt="gallery" />
+        <img src="assets/20.jpg" alt="gallery" />
+        <img src="assets/21.jpg" alt="gallery" />
+        <img src="assets/22.jpg" alt="gallery" />
+      </div>
+
+    </section>
+
+    <section class="section__container instagram__container" id="IN">
+      <h2 class="section__header"> Images </h2>
+      <div class="instagram__flex">
+        <img src="assets/1.png" alt="images" />
+        <img src="assets/2.png" alt="images" />
+        <img src="assets/3.png" alt="images" />
+        <img src="assets/4.png" alt="images" />
+        <img src="assets/7.png" alt="images" />
+        <img src="assets/8.png" alt="images" />
+        <img src="assets/9.png" alt="images" />
+        <img src="assets/10.png" alt="images" />
+      </div>
+    </section>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
